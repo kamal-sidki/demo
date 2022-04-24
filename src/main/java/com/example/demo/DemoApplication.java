@@ -19,6 +19,7 @@ public class DemoApplication {
 			customerRepository.save(new Custom(null,"FSTM","contact@fstm.ma"));
 			customerRepository.save(new Custom(null,"ENSAM","contact@ensam.ma"));
 			customerRepository.save(new Custom(null,"ENSAM2","contact@ensam.ma"));
+			customerRepository.save(new Custom(null,"ENSAM3","contact@ensam.ma"));
 			customerRepository.findAll().forEach(System.out::println);
 		};
 	}
